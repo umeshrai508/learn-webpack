@@ -6,4 +6,11 @@ const heading = new Heading();
 heading.render();
 const btnHello = new HelloWorldButton();
 btnHello.render();
-// helloWorld();
+if(process.env.NODE_ENV=== 'production'){
+    console.log('production mode')
+}
+else if(process.env.NODE_ENV=== 'development'){
+    console.log('development mode')
+}
+
+// HelloWorldButton.nonExistanceMethod();
