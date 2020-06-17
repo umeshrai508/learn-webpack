@@ -1,0 +1,16 @@
+.hello-world-text {
+  font-weight: 20px;
+  color: red; }
+
+.hello-world-btn {
+  outline: none;
+  color: white;
+  background-color: green;
+  padding: 7px 15px;
+  font-size: 20px; }
+
+h1 {
+  color: gray;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter; }
+
